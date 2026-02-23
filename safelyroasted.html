@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SafeRoaster - Coffee APM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span>Coffee APM</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="vacpress.html">VacPress</a>
+        <a href="vacbrew.html">VacBrew</a>
+        <a href="vacbrew-commercial.html">VacBrew Commercial</a>
+        <a href="concentrated-coldbrew.html">Concentrated Cold Brew</a>
+        <a href="saferoaster.html">SafeRoaster</a>
+        <a href="ez-braider.html">E-Z Braider</a>
+        <a href="brownricesnack.html">100% Whole Grain Brown Rice Snack</a>
+        <a href="futureproducts.html">Future Products</a>
+        <a href="membership.html">Membership</a>
+        <a href="purchase.html">Purchase</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>SafeRoaster</h1>
+          <p>
+            Coffee roasted in a low-oxygen environment with extended roasting
+            time to preserve aroma and flavor while avoiding burning.
+          </p>
+          <a class="btn-primary" href="purchase.html">See Prices & Order</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-page">
+      <div class="container product-layout">
+        <div>
+          <div class="product-image-placeholder">
+            SafeRoaster coffee bean images here
+          </div>
+        </div>
+
+        <div class="product-info">
+          <h2>SafeRoaster Coffee</h2>
+          <p>
+            SafeRoaster uses about 5 times longer roasting time in a lower
+            oxygen environment. This keeps more of the natural flavor and aroma
+            in the beans and helps avoid burning, resulting in healthy and
+            tasty coffee.
+          </p>
+
+          <h3>Pricing</h3>
+          <ul>
+            <li>½ lb: $12.50</li>
+            <li>1 lb: $23.00</li>
+            <li>3 lbs: $65.00</li>
+            <li>5 lbs: $105.00</li>
+          </ul>
+
+          <div class="purchase-actions">
+            <a class="btn-primary" href="purchase.html">Go to Purchase Page</a>
+            <a class="btn-secondary" href="contact.html">Ask a Question</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Coffee APM. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

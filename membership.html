@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership - Coffee by APM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img class="logo" src="CLOGO.PNG" alt="Company Logo" />
+      <div class="brand-text">
+        <h1>Membership</h1>
+        <p>Free membership (demo). Stores signups locally in your browser.</p>
+      </div>
+      <img class="logo" src="Loveyoume.PNG" alt="Brand Logo" />
+    </div>
+    <nav class="nav">
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="purchase.html">Purchase</a>
+      <a class="btn" href="contact.html">Contact</a>
+      <a class="btn btn-accent" href="question.html">Question / A/S</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="card-header">
+        <div class="tag">Free</div>
+        <h3>Join Membership</h3>
+      </div>
+      <div class="card-body">
+        <form id="mForm">
+          <label class="small"><b>Name</b></label><br/>
+          <input required name="name" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee" /><br/><br/>
+          <label class="small"><b>Email</b></label><br/>
+          <input required type="email" name="email" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee" /><br/><br/>
+          <button class="pay" type="submit">Join</button>
+        </form>
+        <div id="msg" class="notice" style="display:none;margin-top:12px"></div>
+      </div>
+    </section>
+
+    <p class="small" style="margin-top:10px">
+      For a real membership list accessible anywhere, we can connect this to a form service (Google Forms / Formspree) or a database later.
+    </p>
+  </main>
+
+  <script>
+    document.getElementById("mForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      const arr = JSON.parse(localStorage.getItem("members") || "[]");
+      arr.unshift({ ...data, createdAt: new Date().toISOString() });
+      localStorage.setItem("members", JSON.stringify(arr));
+      const msg = document.getElementById("msg");
+      msg.style.display = "block";
+      msg.innerHTML = "<b>Thank you!</b> Membership saved (demo: local browser storage).";
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>

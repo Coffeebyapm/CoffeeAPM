@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Question / A/S - Coffee by APM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img class="logo" src="CLOGO.PNG" alt="Company Logo" />
+      <div class="brand-text">
+        <h1>Question / A/S</h1>
+        <p>Customers can send a short message with phone & email.</p>
+      </div>
+      <img class="logo" src="Loveyoume.PNG" alt="Brand Logo" />
+    </div>
+    <nav class="nav">
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="purchase.html">Purchase</a>
+      <a class="btn" href="contact.html">Contact</a>
+      <a class="btn" href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="notice">
+      <b>Counter:</b> This page increases the Question/A/S count on your site (stored locally in your browser).
+      For a real “server counter” that works for all visitors, you will need a backend (I can help later).
+    </div>
+
+    <section class="card">
+      <div class="card-header">
+        <div class="tag">Customer Support</div>
+        <h3>Send a Question / A/S Request</h3>
+      </div>
+      <div class="card-body">
+        <form id="qaForm">
+          <label class="small"><b>Name</b></label><br/>
+          <input required name="name" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee" /><br/><br/>
+
+          <label class="small"><b>Email</b></label><br/>
+          <input required type="email" name="email" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee" /><br/><br/>
+
+          <label class="small"><b>Phone</b></label><br/>
+          <input name="phone" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee" /><br/><br/>
+
+          <label class="small"><b>Message</b></label><br/>
+          <textarea required name="message" rows="5" style="width:100%;padding:10px;border-radius:10px;border:1px solid #e6e8ee"></textarea><br/><br/>
+
+          <button class="pay" type="submit">Submit</button>
+          <button class="pay paypal" type="button" id="clearBtn">Reset Counter (only for you)</button>
+        </form>
+
+        <p class="small" style="margin-top:10px">
+          <b>Note:</b> This demo stores requests in your browser only. For real email notifications, use a form service (Formspree) or a backend.
+        </p>
+
+        <div id="result" class="notice" style="display:none"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function incCount(){
+      const cur = Number(localStorage.getItem("qa_count") || "0");
+      localStorage.setItem("qa_count", String(cur + 1));
+    }
+
+    document.getElementById("qaForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      incCount();
+
+      // Store the message locally (optional)
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      const arr = JSON.parse(localStorage.getItem("qa_messages") || "[]");
+      arr.unshift({ ...data, createdAt: new Date().toISOString() });
+      localStorage.setItem("qa_messages", JSON.stringify(arr));
+
+      const box = document.getElementById("result");
+      box.style.display = "block";
+      box.innerHTML = "<b>Thank you!</b> Your request was recorded. (Demo: saved locally)";
+      e.target.reset();
+    });
+
+    document.getElementById("clearBtn").addEventListener("click", () => {
+      localStorage.setItem("qa_count", "0");
+      localStorage.setItem("qa_messages", "[]");
+      alert("Counter reset (local).");
+    });
+  </script>
+</body>
+</html>
