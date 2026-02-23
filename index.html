@@ -1,0 +1,57 @@
+Html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee by APM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img class="logo" src="CLOGO.PNG" alt="Company Logo" />
+      <div class="brand-text">
+        <h1>Coffee by APM</h1>
+        <p>Vacuum coffee innovations + unique products</p>
+      </div>
+      <img class="logo" src="Loveyoume.PNG" alt="Brand Logo" />
+    </div>
+
+    <nav class="nav">
+      <a class="btn" href="purchase.html">Purchase</a>
+      <a class="btn" href="membership.html">Membership</a>
+      <a class="btn" href="contact.html">Contact</a>
+      <a class="btn" href="login.html">Login</a>
+      <a class="btn" href="feedback.html">Feedback</a>
+      <a class="btn btn-accent" href="question.html">
+        Question / A/S <span id="qaBadge" class="badge">0</span>
+      </a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Products</h2>
+      <p>
+        Browse all products below. Each card includes details, photos, demo videos, and payment buttons.
+        (For real payments: paste your Stripe Payment Link and PayPal link in <b>app.js</b>.)
+      </p>
+      <div class="notice">
+        <b>Image/Video not showing?</b> It means the filename in the code does not match the file in GitHub exactly
+        (uppercase/lowercase and spaces must match).
+      </div>
+    </section>
+
+    <section id="catalog" class="grid"></section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Coffee by APM</div>
+    <div class="small">Shipping costs shown on each product card (USA). International shipping discussed per order where noted.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
