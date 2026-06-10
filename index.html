@@ -1,57 +1,164 @@
-Html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coffee by APM</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Coffee APM | Innovative Coffee, Food, Beauty, and Energy Products</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <img class="logo" src="CLOGO.PNG" alt="Company Logo" />
-      <div class="brand-text">
-        <h1>Coffee by APM</h1>
-        <p>Vacuum coffee innovations + unique products</p>
-      </div>
-      <img class="logo" src="Loveyoume.PNG" alt="Brand Logo" />
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Coffee APM home">
+    <img src="CLOGO.PNG" alt="Company logo" class="logo" onerror="this.style.display='none'">
+    <div>
+      <strong>Coffee APM</strong>
+      <span>Vacuum Cold Brew · Coffee · Snacks · Innovation</span>
     </div>
+    <img src="Loveyoume.PNG" alt="Brand logo" class="brand-logo" onerror="this.style.display='none'">
+  </a>
+  <nav>
+    <a href="#purchase">Purchase</a>
+    <a href="#membership">Membership</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#questions">Question / A/S <b id="navCount">0</b></a>
+  </nav>
+</header>
 
-    <nav class="nav">
-      <a class="btn" href="purchase.html">Purchase</a>
-      <a class="btn" href="membership.html">Membership</a>
-      <a class="btn" href="contact.html">Contact</a>
-      <a class="btn" href="login.html">Login</a>
-      <a class="btn" href="feedback.html">Feedback</a>
-      <a class="btn btn-accent" href="question.html">
-        Question / A/S <span id="qaBadge" class="badge">0</span>
-      </a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <h2>Products</h2>
-      <p>
-        Browse all products below. Each card includes details, photos, demo videos, and payment buttons.
-        (For real payments: paste your Stripe Payment Link and PayPal link in <b>app.js</b>.)
-      </p>
-      <div class="notice">
-        <b>Image/Video not showing?</b> It means the filename in the code does not match the file in GitHub exactly
-        (uppercase/lowercase and spaces must match).
+<main id="home">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Ready-to-sell product website</p>
+      <h1>Innovative products for cold brew coffee, roasted coffee, snacks, hair braiding, and future energy systems.</h1>
+      <p>Explore 7 product groups and 2 future products. Each product includes photos, videos, prices, Stripe test checkout links, and shipping information.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#purchase">Purchase Products</a>
+        <a class="button" href="#questions">Ask Question / A/S</a>
       </div>
-    </section>
+    </div>
+    <div class="hero-card">
+      <img src="Loveyoume.PNG" alt="Brand logo" onerror="this.src='CLOGO.PNG'; this.onerror=null;">
+      <h2>Fresh · Tasty · Healthy · Convenient</h2>
+      <p>Vacuum extraction and carefully designed products for better daily life.</p>
+    </div>
+  </section>
 
-    <section id="catalog" class="grid"></section>
-  </main>
+  <section class="quick-buttons" aria-label="Main actions">
+    <a href="#purchase">Purchase</a>
+    <a href="#membership">Membership</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+    <a href="#feedback">Feedback / Comment</a>
+    <a href="#questions">Question / A/S <span id="quickCount">0</span></a>
+  </section>
 
-  <footer class="footer">
-    <div>© <span id="year"></span> Coffee by APM</div>
-    <div class="small">Shipping costs shown on each product card (USA). International shipping discussed per order where noted.</div>
-  </footer>
+  <section id="purchase" class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Product catalog</p>
+      <h2>Purchase Products</h2>
+      <p>Click each product group to view details, all photos/videos, shipping information, and Stripe checkout buttons.</p>
+    </div>
+    <div id="catalog" class="catalog"></div>
+  </section>
 
-  <script src="app.js"></script>
+  <section id="membership" class="section split">
+    <div>
+      <p class="eyebrow">Free membership</p>
+      <h2>Membership</h2>
+      <p>Membership is free. Customers can leave their name and contact information so Coffee APM can keep a customer list and send product updates.</p>
+    </div>
+    <form class="card form-card" data-form="membership">
+      <label>Name <input required name="name" placeholder="Customer name"></label>
+      <label>Email <input required type="email" name="email" placeholder="email@example.com"></label>
+      <label>Phone <input name="phone" placeholder="Phone number"></label>
+      <button type="submit" class="button primary">Join Free Membership</button>
+      <p class="form-note"></p>
+    </form>
+  </section>
+
+  <section id="contact" class="section split">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Contact Coffee APM</h2>
+      <p>Customers can send a message with phone number and email. This static website stores the message in the browser and can also open the customer’s email app.</p>
+    </div>
+    <form class="card form-card" data-form="contact">
+      <label>Name <input required name="name" placeholder="Customer name"></label>
+      <label>Email <input required type="email" name="email" placeholder="email@example.com"></label>
+      <label>Phone <input name="phone" placeholder="Phone number"></label>
+      <label>Message <textarea required name="message" placeholder="Please write your message"></textarea></label>
+      <button type="submit" class="button primary">Submit Contact Message</button>
+      <p class="form-note"></p>
+    </form>
+  </section>
+
+  <section id="login" class="section split">
+    <div>
+      <p class="eyebrow">Customer login</p>
+      <h2>Login</h2>
+      <p>This simple login box is for future customer accounts. For now, it saves the customer name in the browser only. A real secure login needs a backend service.</p>
+    </div>
+    <form class="card form-card" data-form="login">
+      <label>Email <input required type="email" name="email" placeholder="email@example.com"></label>
+      <label>Password <input required type="password" name="password" placeholder="Password"></label>
+      <button type="submit" class="button primary">Login</button>
+      <p class="form-note"></p>
+    </form>
+  </section>
+
+  <section id="feedback" class="section split">
+    <div>
+      <p class="eyebrow">Feedback</p>
+      <h2>Feedback / Comment</h2>
+      <p>Customers can leave comments about products, orders, or suggestions.</p>
+    </div>
+    <form class="card form-card" data-form="feedback">
+      <label>Name <input required name="name" placeholder="Customer name"></label>
+      <label>Email <input required type="email" name="email" placeholder="email@example.com"></label>
+      <label>Comment <textarea required name="message" placeholder="Please write your comment"></textarea></label>
+      <button type="submit" class="button primary">Send Feedback</button>
+      <p class="form-note"></p>
+    </form>
+  </section>
+
+  <section id="questions" class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Question / after service</p>
+      <h2>Question / A/S Requests <span class="pill" id="requestCount">0 requests</span></h2>
+      <p>Customers can submit a short message, phone number, and email. The counter increases immediately so you can see demand quickly on the homepage.</p>
+    </div>
+    <div class="split">
+      <form class="card form-card" data-form="request">
+        <label>Type
+          <select name="type">
+            <option>Question</option>
+            <option>A/S After Service</option>
+          </select>
+        </label>
+        <label>Name <input required name="name" placeholder="Customer name"></label>
+        <label>Email <input required type="email" name="email" placeholder="email@example.com"></label>
+        <label>Phone <input name="phone" placeholder="Phone number"></label>
+        <label>Short message <textarea required name="message" placeholder="Please describe the question or problem"></textarea></label>
+        <button type="submit" class="button primary">Submit Question / A/S</button>
+        <p class="form-note"></p>
+      </form>
+      <div class="card">
+        <h3>Recent saved requests</h3>
+        <div id="requestList" class="request-list"></div>
+        <button id="clearRequests" class="button small" type="button">Clear saved requests on this browser</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <img src="CLOGO.PNG" alt="Company logo" onerror="this.style.display='none'">
+  <img src="Loveyoume.PNG" alt="Brand logo" onerror="this.style.display='none'">
+  <p>© <span id="year"></span> Coffee APM. International shipping and custom orders will be discussed per order.</p>
+</footer>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
