@@ -1,1 +1,1 @@
-
+const PRODUCT_GROUPS = [];
