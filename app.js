@@ -295,6 +295,13 @@ function buildCatalog(){
       ship.innerHTML = `<b>Shipping (USA):</b><br>${shipping.map(s => "• " + s).join("<br>")}`;
       body.appendChild(ship);
     }
+  
+  // Stripe purchase button
+    if(item.stripeLink && !item.stripeLink.includes("PASTE_")){
+      const buy = document.createElement("p");
+      buy.innerHTML = `<a class="btn primary" href="${item.stripeLink}" target="_blank" rel="noopener">Buy with Stripe</a>`;
+      body.appendChild(buy);
+    }  
 
     // Payment buttons (links)
     const actions = document.createElement("div");
