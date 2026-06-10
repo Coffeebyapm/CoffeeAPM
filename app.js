@@ -11,8 +11,8 @@ const CATALOG = [
     short: "Piston brew coffee makers. Cold brew in 3–5 minutes using positive/negative pressure.",
     notes: "Piston mechanism creates positive and negative pressure to enhance the extraction in cold water. It makes cold brew coffee in 3–5 mins.",
     variants: [
-      { name: "Single-wall clear glass cup", material: "Borosilicate glass", size: "200 ml", price: 30.00, image: "Piston press glass.jpg" },
-      { name: "Double-wall SS thermos cup", material: "304 Stainless steel", size: "300 ml", price: 35.00, image: "Piston press SS photo.jpg" }
+      { name: "Single-wall clear glass cup", material: "Borosilicate glass", size: "200 ml", price: 30.00, image: "Piston press glass.jpg", stripeLink: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000" },
+{ name: "Double-wall SS thermos cup", material: "304 Stainless steel", size: "300 ml", price: 35.00, image: "Piston press SS photo.jpg", stripeLink: "https://buy.stripe.com/test_fZu5kwfGeg8g7BTgBz2400v" }press SS photo.jpg" }
     ],
     images: ["Piston press glass.jpg", "Piston press SS photo.jpg"],
     videos: ["VacPressDemo.mp4"],
@@ -259,6 +259,7 @@ function buildCatalog(){
             <th>Material</th>
             <th>Size</th>
             <th>Price</th>
+            <th>Purchase</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -272,6 +273,12 @@ function buildCatalog(){
           <td>${v.material || ""}</td>
           <td>${v.size || v.weight || ""}</td>
           <td>${money(v.price)}</td>
+          ${
+    v.stripeLink
+      ? `<a class="btn primary" href="${v.stripeLink}" target="_blank" rel="noopener">Buy</a>`
+      : ""
+  }
+</td>
         `;
         tbody.appendChild(tr);
       }
