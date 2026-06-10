@@ -20,7 +20,7 @@ const CATALOG = [
       "Standard: $8 (one or more products)",
       "Express: $25 (one or more products)"
     ],
-    stripeLink: "PASTE_STRIPE_PAYMENT_LINK_HERE",
+    stripeLink: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000",
     paypalLink: "PASTE_PAYPAL_LINK_HERE"
   },
   {
