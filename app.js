@@ -259,8 +259,7 @@ function buildCatalog(){
             <th>Material</th>
             <th>Size</th>
             <th>Price</th>
-            <th>Purchase</th>
-          </tr>
+           </tr>
         </thead>
         <tbody></tbody>
       `;
@@ -273,12 +272,7 @@ function buildCatalog(){
           <td>${v.material || ""}</td>
           <td>${v.size || v.weight || ""}</td>
           <td>${money(v.price)}</td>
-          ${
-    v.stripeLink
-      ? `<a class="btn primary" href="${v.stripeLink}" target="_blank" rel="noopener">Buy</a>`
-      : ""
-  }
-</td>
+         </td>
         `;
         tbody.appendChild(tr);
       }
