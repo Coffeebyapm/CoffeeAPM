@@ -272,7 +272,7 @@ function buildCatalog(){
           <td>${v.material || ""}</td>
           <td>${v.size || v.weight || ""}</td>
           <td>${money(v.price)}</td>
-              `;
+        `;
         tbody.appendChild(tr);
       }
       body.appendChild(table);
