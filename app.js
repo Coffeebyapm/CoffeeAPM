@@ -11,8 +11,8 @@ const CATALOG = [
     short: "Piston brew coffee makers. Cold brew in 3–5 minutes using positive/negative pressure.",
     notes: "Piston mechanism creates positive and negative pressure to enhance the extraction in cold water. It makes cold brew coffee in 3–5 mins.",
     variants: [
-      { name: "Single-wall clear glass cup", material: "Borosilicate glass", size: "200 ml", price: 30.00, image: "Piston press glass.jpg", stripeLink: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000" },
-{ name: "Double-wall SS thermos cup", material: "304 Stainless steel", size: "300 ml", price: 35.00, image: "Piston press SS photo.jpg", stripeLink: "https://buy.stripe.com/test_fZu5kwfGeg8g7BTgBz2400v" }press SS photo.jpg" }
+      { name: "Single-wall clear glass cup", material: "Borosilicate glass", size: "200 ml", price: 30.00, image: "Piston press glass.jpg" },
+      { name: "Double-wall SS thermos cup", material: "304 Stainless steel", size: "300 ml", price: 35.00, image: "Piston press SS photo.jpg" }
     ],
     images: ["Piston press glass.jpg", "Piston press SS photo.jpg"],
     videos: ["VacPressDemo.mp4"],
@@ -20,7 +20,7 @@ const CATALOG = [
       "Standard: $8 (one or more products)",
       "Express: $25 (one or more products)"
     ],
-    stripeLink: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000",
+    stripeLink: "PASTE_STRIPE_PAYMENT_LINK_HERE",
     paypalLink: "PASTE_PAYPAL_LINK_HERE"
   },
   {
@@ -259,7 +259,7 @@ function buildCatalog(){
             <th>Material</th>
             <th>Size</th>
             <th>Price</th>
-           </tr>
+          </tr>
         </thead>
         <tbody></tbody>
       `;
@@ -295,13 +295,6 @@ function buildCatalog(){
       ship.innerHTML = `<b>Shipping (USA):</b><br>${shipping.map(s => "• " + s).join("<br>")}`;
       body.appendChild(ship);
     }
-  
-  // Stripe purchase button
-    if(item.stripeLink && !item.stripeLink.includes("PASTE_")){
-      const buy = document.createElement("p");
-      buy.innerHTML = `<a class="btn primary" href="${item.stripeLink}" target="_blank" rel="noopener">Buy with Stripe</a>`;
-      body.appendChild(buy);
-    }  
 
     // Payment buttons (links)
     const actions = document.createElement("div");
