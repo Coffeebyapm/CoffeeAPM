@@ -21,7 +21,7 @@ const CATALOG = [
       "Express: $25 (one or more products)"
     ],
     stripeLink: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000",
-    paypalLink: "PASTE_PAYPAL_LINK_HERE"
+    paypalLink: "https://www.paypal.com/ncp/payment/6E5NU2GE5AUH6"
   },
   {
     id: "vacbrew",
