@@ -42,7 +42,7 @@ const CATALOG = [
       "Express: $44.99 (one or more products)"
     ],
     stripeLink: "PASTE_STRIPE_PAYMENT_LINK_HERE",
-    paypalLink: "PASTE_PAYPAL_LINK_HERE"
+    paypalLink: "https://www.paypal.com/ncp/payment/5U5ZG8DTW75XA"
   },
   {
     id: "vacbrew-commercial",
