@@ -12,6 +12,7 @@ const PRODUCT_GROUPS = [
         images: ["Piston press glass.jpg"],
         videos: ["VacPressDemo.mp4"],
         stripe: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000"
+        paypal: "https://www.paypal.com/ncp/payment/6E5NU2GE5AUH6"
       },
       {
         name: "VacPress Double Wall Stainless Thermos Cup",
