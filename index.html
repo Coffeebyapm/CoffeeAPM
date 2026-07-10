@@ -1,112 +1,889 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Coffee APM | Modern Cold Brew, Coffee, Snacks, and Inventions</title>
-  <meta name="description" content="Coffee APM product catalog: VacPress, VacBrew, commercial cold brew extractors, concentrated coffee, SafelyRoasted beans, E-Z Braider, brown rice snacks, and future products." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1"
+
+>
+
+<meta
+name="description"
+content="Coffee APM develops innovative coffee brewing systems, premium roasted coffee, healthy snacks, professional equipment, and future green-energy products."
+
+>
+
+  <title>Coffee APM | Innovative Products</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+  <!-- Accessibility link -->
+
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <!-- ======================================================
+       WEBSITE HEADER
+       ====================================================== -->
+
   <header class="site-header">
-    <div class="container header-grid">
-      <a href="#top" class="brand" aria-label="Coffee APM home">
-        <img src="CLOGO.PNG" alt="Coffee APM company logo" class="logo company-logo" />
-        <div>
-          <strong>Coffee APM</strong>
-          <span>Pressure • Vacuum • Fresh Extraction</span>
-        </div>
-        <img src="Loveyoume.PNG" alt="Loveyoume brand logo" class="logo brand-logo" />
-      </a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="#products">Products</a>
-        <a href="purchase.html">Purchase</a>
-        <a href="membership.html">Membership</a>
-        <a href="contact.html">Contact</a>
-        <a href="feedback.html">Feedback</a>
-        <a href="question.html">Question/A/S <span id="question-count" class="nav-badge">0</span></a>
-        <a href="login.html">Login</a>
-        <a href="shipping.html">Shipping</a>
-      </nav>
+
+```
+<div class="announcement-bar">
+  <div class="container announcement-inner">
+
+    <span>
+      Innovative coffee brewing, specialty foods,
+      professional equipment, and future technologies
+    </span>
+
+    <a href="shipping.html">
+      View shipping information
+    </a>
+
+  </div>
+</div>
+
+
+<div class="container header-main">
+
+  <!-- Company logo -->
+  <a
+    class="company-brand"
+    href="index.html"
+    aria-label="Coffee APM homepage"
+  >
+    <img
+      class="company-logo"
+      src="CLOGO.PNG"
+      alt="Coffee APM company logo"
+    >
+
+    <div class="company-name">
+      <strong>Coffee APM</strong>
+      <span>Innovative Products for Everyday Life</span>
     </div>
+  </a>
+
+
+  <!-- Brand logo -->
+  <a
+    class="brand-logo-link"
+    href="#products"
+    aria-label="View Coffee APM products"
+  >
+    <img
+      class="brand-logo"
+      src="Loveyoume.PNG"
+      alt="Love You Me brand logo"
+    >
+  </a>
+
+
+  <!-- Mobile menu button -->
+  <button
+    class="menu-toggle"
+    id="menu-toggle"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="main-navigation"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+</div>
+
+
+<!-- Main navigation -->
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Main navigation"
+>
+  <div class="container nav-inner">
+
+    <a class="nav-link active" href="index.html">
+      Home
+    </a>
+
+    <a class="nav-link" href="#products">
+      Products
+    </a>
+
+    <a class="nav-link" href="purchase.html">
+      Purchase
+    </a>
+
+    <a class="nav-link" href="shipping.html">
+      Shipping
+    </a>
+
+    <a class="nav-link" href="membership.html">
+      Membership
+    </a>
+
+    <a class="nav-link" href="contact.html">
+      Contact
+    </a>
+
+    <a class="nav-link" href="feedback.html">
+      Feedback
+    </a>
+
+    <a class="nav-link support-link" href="question.html">
+      Question / A/S
+      <span
+        class="support-count"
+        id="support-count"
+        aria-label="Open support requests"
+      >
+        0
+      </span>
+    </a>
+
+    <a class="nav-link login-link" href="login.html">
+      Login
+    </a>
+
+  </div>
+</nav>
+```
+
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Coffee APM Launch Catalog</p>
-          <h1>Cold brew products, roasted coffee, snacks, and practical inventions.</h1>
-          <p class="hero-text">Shop individual products with Stripe or PayPal. View all photos and video demonstrations for each product group on one modern, mobile-friendly page.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#products">Shop Products</a>
-            <a class="btn secondary" href="question.html">Ask a Question / A/S</a>
-          </div>
-          <div class="trust-row">
-            <span>Stripe + PayPal</span>
-            <span>USA shipping listed</span>
-            <span>International orders by discussion</span>
-          </div>
+  <!-- ======================================================
+       MAIN CONTENT
+       ====================================================== -->
+
+  <main id="main-content">
+
+```
+<!-- ====================================================
+     HERO SECTION
+     ==================================================== -->
+<section class="hero-section">
+
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">
+        Welcome to Coffee APM
+      </p>
+
+      <h1>
+        Innovative Coffee Brewing
+        <span>&amp; Specialty Products</span>
+      </h1>
+
+      <p class="hero-description">
+        Discover original products developed to improve everyday
+        life—from rapid cold-brew systems and commercial vacuum
+        extractors to premium coffee, healthy snacks, professional
+        equipment, and future renewable-energy technologies.
+      </p>
+
+      <div class="hero-actions">
+
+        <a class="button button-primary" href="#products">
+          Explore Products
+        </a>
+
+        <a class="button button-secondary" href="contact.html">
+          Contact Coffee APM
+        </a>
+
+      </div>
+
+
+      <div class="hero-highlights">
+
+        <div class="highlight-item">
+          <strong>7</strong>
+          <span>Current product groups</span>
         </div>
-        <div class="hero-card">
-          <img src="CLOGO.PNG" alt="Coffee APM" class="hero-logo" />
-          <img src="Loveyoume.PNG" alt="Loveyoume" class="hero-logo small" />
-          <p>Designed for fresh flavor, fast extraction, and practical everyday use.</p>
+
+        <div class="highlight-item">
+          <strong>2</strong>
+          <span>Future product groups</span>
+        </div>
+
+        <div class="highlight-item">
+          <strong>2</strong>
+          <span>Secure payment choices</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+      <div class="hero-image-card hero-card-main">
+
+        <img
+          src="Piston press glass.jpg"
+          alt="VacPress glass cold brew coffee maker"
+        >
+
+        <div class="hero-card-label">
+          <span>Featured Innovation</span>
+          <strong>VacPress</strong>
+          <small>Cold brew coffee in 3–5 minutes</small>
+        </div>
+
+      </div>
+
+
+      <div class="hero-floating-card hero-card-one">
+        <span class="floating-icon">☕</span>
+        <div>
+          <strong>Fresh Extraction</strong>
+          <small>Designed to preserve flavor and aroma</small>
         </div>
       </div>
-    </section>
 
-    <section class="quick-actions">
-      <div class="container action-grid">
-        <a href="purchase.html">Purchase</a>
-        <a href="membership.html">Free Membership</a>
-        <a href="contact.html">Contact</a>
-        <a href="feedback.html">Feedback / Comment</a>
-        <a href="question.html">Question / A/S <span id="question-count-card">0</span></a>
+
+      <div class="hero-floating-card hero-card-two">
+        <span class="floating-icon">✓</span>
+        <div>
+          <strong>Direct Ordering</strong>
+          <small>Stripe and PayPal options</small>
+        </div>
       </div>
-    </section>
 
-    <section class="container intro-section">
-      <h2>Featured Product Groups</h2>
-      <p>Browse the 7 product groups and 2 future product groups. Each product card includes price, specifications, photos, videos when available, and payment buttons.</p>
-      <div id="group-nav" class="group-nav"></div>
-    </section>
+    </div>
 
-    <section id="products" class="container products-section">
-      <div class="section-heading">
-        <p class="eyebrow">Complete Catalog</p>
-        <h2>All Products</h2>
-      </div>
-      <div id="catalog-root"></div>
-    </section>
+  </div>
 
-    <section class="container shipping-preview">
+</section>
+
+
+<!-- ====================================================
+     TRUST / FEATURE STRIP
+     ==================================================== -->
+<section class="feature-strip">
+
+  <div class="container feature-grid">
+
+    <article class="feature-item">
+      <div class="feature-icon">⚙</div>
       <div>
-        <p class="eyebrow">Shipping</p>
-        <h2>USA shipping costs are listed by product group.</h2>
-        <p>For international shipping, costs will be discussed for each order.</p>
+        <h2>Original Product Designs</h2>
+        <p>
+          Practical products developed from years of research,
+          testing, and invention.
+        </p>
       </div>
-      <a class="btn secondary" href="shipping.html">View Shipping Details</a>
-    </section>
+    </article>
+
+
+    <article class="feature-item">
+      <div class="feature-icon">❄</div>
+      <div>
+        <h2>Cold Extraction Technology</h2>
+        <p>
+          Pressure and vacuum systems developed for fresh,
+          concentrated cold coffee.
+        </p>
+      </div>
+    </article>
+
+
+    <article class="feature-item">
+      <div class="feature-icon">🔒</div>
+      <div>
+        <h2>Secure Checkout</h2>
+        <p>
+          Customers can choose Stripe or PayPal when payment links
+          are active.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     ABOUT / COMPANY STORY
+     ==================================================== -->
+<section class="section about-section">
+
+  <div class="container about-grid">
+
+    <div class="section-heading">
+
+      <p class="eyebrow">
+        About Coffee APM
+      </p>
+
+      <h2>
+        Innovation Designed Around Real Needs
+      </h2>
+
+    </div>
+
+
+    <div class="about-copy">
+
+      <p>
+        Coffee APM develops innovative products intended to make
+        everyday activities easier, healthier, more efficient, and
+        more sustainable.
+      </p>
+
+      <p>
+        Our product collection includes pressure and vacuum coffee
+        brewing systems, concentrated cold brew, carefully roasted
+        coffee beans, whole-grain brown rice snacks, professional
+        hair-braiding equipment, and future renewable-energy
+        technologies.
+      </p>
+
+      <a class="text-link" href="#products">
+        View our complete product collection
+        <span aria-hidden="true">→</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     PRODUCT CATALOG
+     app.js will insert all groups and items here
+     ==================================================== -->
+<section
+  class="section products-section"
+  id="products"
+>
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <div>
+
+        <p class="eyebrow">
+          Product Catalog
+        </p>
+
+        <h2>
+          Explore Our Products
+        </h2>
+
+        <p>
+          View product details, all available photos, demo videos,
+          pricing, shipping information, and payment options.
+        </p>
+
+      </div>
+
+
+      <div class="catalog-tools">
+
+        <label class="search-label" for="product-search">
+          Search products
+        </label>
+
+        <div class="search-box">
+
+          <span aria-hidden="true">⌕</span>
+
+          <input
+            id="product-search"
+            type="search"
+            placeholder="Search VacPress, coffee, snack..."
+            autocomplete="off"
+          >
+
+          <button
+            id="clear-search"
+            class="clear-search"
+            type="button"
+            aria-label="Clear product search"
+            hidden
+          >
+            ×
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Product category filter buttons -->
+    <div
+      class="category-filters"
+      id="category-filters"
+      aria-label="Product category filters"
+    >
+      <button
+        class="filter-button active"
+        type="button"
+        data-filter="all"
+      >
+        All Products
+      </button>
+    </div>
+
+
+    <!-- JavaScript loading message -->
+    <div class="catalog-status" id="catalog-status">
+      Loading products...
+    </div>
+
+
+    <!-- JavaScript inserts products here -->
+    <div
+      class="product-catalog"
+      id="product-catalog"
+      aria-live="polite"
+    ></div>
+
+
+    <!-- No-results message -->
+    <div
+      class="no-results"
+      id="no-results"
+      hidden
+    >
+      <h3>No products found</h3>
+      <p>
+        Try another product name or select “All Products.”
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     TECHNOLOGY SECTION
+     ==================================================== -->
+<section class="section technology-section">
+
+  <div class="container technology-grid">
+
+    <div class="technology-image">
+
+      <img
+        src="VacBrewGS.PNG"
+        alt="VacBrew personal glass vacuum coffee extractor"
+      >
+
+      <div class="image-caption">
+        VacBrew Personal Glass Extractor
+      </div>
+
+    </div>
+
+
+    <div class="technology-content">
+
+      <p class="eyebrow">
+        Coffee Extraction Technology
+      </p>
+
+      <h2>
+        Pressure and Vacuum Systems for Cold Coffee
+      </h2>
+
+      <p>
+        VacPress uses piston movement to create positive and
+        negative pressure inside the cup. This pressure action
+        enhances coffee extraction in cold water.
+      </p>
+
+      <p>
+        VacBrew systems use vacuum force to pull icy cold water
+        through coffee grounds, producing fresh and concentrated
+        coffee while helping preserve flavor and aroma.
+      </p>
+
+      <div class="technology-points">
+
+        <div>
+          <span>01</span>
+          <p>Fast cold-brew preparation</p>
+        </div>
+
+        <div>
+          <span>02</span>
+          <p>Concentrated coffee options</p>
+        </div>
+
+        <div>
+          <span>03</span>
+          <p>Personal and commercial systems</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     FUTURE PRODUCTS
+     ==================================================== -->
+<section class="section future-section">
+
+  <div class="container">
+
+    <div class="section-heading centered">
+
+      <p class="eyebrow">
+        Future Innovations
+      </p>
+
+      <h2>
+        Products in Development
+      </h2>
+
+      <p>
+        Some products may be produced after sufficient customer
+        demand or minimum order quantities are reached.
+      </p>
+
+    </div>
+
+
+    <div class="future-grid">
+
+
+      <article class="future-card">
+
+        <div class="future-card-image">
+          <img
+            src="IBrewwaterbottle.PNG"
+            alt="I Brew reusable coffee cartridge for water bottle"
+          >
+
+          <span class="future-badge">
+            Future Product
+          </span>
+        </div>
+
+        <div class="future-card-content">
+
+          <h3>I Brew</h3>
+
+          <p>
+            A permanently reusable cold-brew cartridge designed
+            for personal water bottles and reusable glass or
+            stainless-steel bottles.
+          </p>
+
+          <a class="button button-outline" href="#products">
+            View I Brew Products
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="future-card">
+
+        <div class="future-card-image">
+          <img
+            src="WTBT5KW.PNG"
+            alt="Blade tilting type wind turbine"
+          >
+
+          <span class="future-badge">
+            Future Product
+          </span>
+        </div>
+
+        <div class="future-card-content">
+
+          <h3>Blade Tilting Wind Turbine</h3>
+
+          <p>
+            A low-RPM, high-torque wind turbine concept designed
+            for operation at both low and high wind speeds.
+          </p>
+
+          <a class="button button-outline" href="#products">
+            View Wind Turbine
+          </a>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     CUSTOMER SUPPORT
+     ==================================================== -->
+<section class="section support-section">
+
+  <div class="container support-panel">
+
+    <div class="support-content">
+
+      <p class="eyebrow">
+        Customer Support
+      </p>
+
+      <h2>
+        Have a Product Question or Need After-Sales Service?
+      </h2>
+
+      <p>
+        Send a short message with your name, email address, phone
+        number, product name, and question. Coffee APM will respond
+        as soon as possible.
+      </p>
+
+    </div>
+
+
+    <div class="support-actions">
+
+      <a class="button button-light" href="question.html">
+        Submit Question / A/S
+      </a>
+
+      <a class="button button-ghost-light" href="contact.html">
+        Contact Us
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     CUSTOMER ACTION CARDS
+     ==================================================== -->
+<section class="section customer-actions-section">
+
+  <div class="container action-card-grid">
+
+    <article class="action-card">
+
+      <span class="action-card-number">01</span>
+
+      <h2>Purchase Products</h2>
+
+      <p>
+        Browse individual products and choose Stripe or PayPal
+        where payment links are available.
+      </p>
+
+      <a href="purchase.html">
+        Go to Purchase Page →
+      </a>
+
+    </article>
+
+
+    <article class="action-card">
+
+      <span class="action-card-number">02</span>
+
+      <h2>Free Membership</h2>
+
+      <p>
+        Join the Coffee APM customer list for product information,
+        updates, and future announcements.
+      </p>
+
+      <a href="membership.html">
+        Join Membership →
+      </a>
+
+    </article>
+
+
+    <article class="action-card">
+
+      <span class="action-card-number">03</span>
+
+      <h2>Feedback and Comments</h2>
+
+      <p>
+        Share your experience, suggestions, and ideas about Coffee
+        APM products.
+      </p>
+
+      <a href="feedback.html">
+        Send Feedback →
+      </a>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================
+     IMPORTANT PAYMENT NOTICE
+     ==================================================== -->
+<section class="payment-notice">
+
+  <div class="container payment-notice-inner">
+
+    <div class="notice-icon" aria-hidden="true">
+      !
+    </div>
+
+    <div>
+
+      <h2>Payment Link Notice</h2>
+
+      <p>
+        Stripe links containing the word
+        <strong>test</strong> are testing links and do not accept
+        real customer payments. Replace each test link with its
+        live Stripe link before launching real sales. PayPal links
+        should also be tested before public launch.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+```
+
   </main>
 
+  <!-- ======================================================
+       FOOTER
+       ====================================================== -->
+
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>Coffee APM</strong>
-        <p>Fresh extraction, safer roasting, and practical product inventions.</p>
-      </div>
-      <div>
-        <a href="contact.html">Contact</a>
-        <a href="feedback.html">Feedback</a>
-        <a href="question.html">Question/A/S</a>
-      </div>
+
+```
+<div class="container footer-grid">
+
+
+  <div class="footer-brand">
+
+    <div class="footer-logos">
+
+      <img
+        src="CLOGO.PNG"
+        alt="Coffee APM company logo"
+      >
+
+      <img
+        src="Loveyoume.PNG"
+        alt="Love You Me brand logo"
+      >
+
     </div>
-    <p class="copyright">© <span id="year"></span> Coffee APM. All rights reserved.</p>
+
+    <p>
+      Innovative products for coffee brewing, specialty foods,
+      professional equipment, and future technologies.
+    </p>
+
+  </div>
+
+
+  <div class="footer-column">
+
+    <h2>Products</h2>
+
+    <a href="#products">VacPress</a>
+    <a href="#products">VacBrew</a>
+    <a href="#products">VacBrew Commercial</a>
+    <a href="#products">SafelyRoasted</a>
+    <a href="#products">E-Z Braider</a>
+
+  </div>
+
+
+  <div class="footer-column">
+
+    <h2>Customer Service</h2>
+
+    <a href="purchase.html">Purchase</a>
+    <a href="shipping.html">Shipping</a>
+    <a href="contact.html">Contact</a>
+    <a href="question.html">Question / A/S</a>
+    <a href="feedback.html">Feedback</a>
+
+  </div>
+
+
+  <div class="footer-column">
+
+    <h2>Account</h2>
+
+    <a href="membership.html">Membership</a>
+    <a href="login.html">Login</a>
+
+    <p class="footer-note">
+      International shipping arrangements may be discussed
+      individually.
+    </p>
+
+  </div>
+
+</div>
+
+
+<div class="container footer-bottom">
+
+  <p>
+    &copy;
+    <span id="current-year"></span>
+    Coffee APM. All rights reserved.
+  </p>
+
+  <a href="#main-content">
+    Back to top ↑
+  </a>
+
+</div>
+```
+
   </footer>
 
+  <!-- Product data must load before app.js -->
+
   <script src="products.js"></script>
+
   <script src="app.js"></script>
+
 </body>
 </html>
+
