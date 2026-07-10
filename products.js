@@ -1,4 +1,4 @@
-window PRODUCTS = [
+window.PRODUCTS = [
   {
     group: "VacPress",
     description: "Cup-type piston cold brew coffee makers. The piston creates positive and negative pressure to enhance extraction in cold water and makes cold brew coffee in 3–5 minutes.",
