@@ -10,7 +10,7 @@ window.PRODUCTS = [
         specs: ["Borosilicate glass", "Single-wall clear glass cup", "200 ml"],
         images: ["Piston press glass.jpg"],
         videos: ["VacPressDemo.mp4"],
-        stripe: "https://buy.stripe.com/test_28E28k65E8FO2hz0CB24000",
+        stripe: "https://buy.stripe.com/prod_UvFeVdd8dLhUkQ",
         paypal: "https://www.paypal.com/ncp/payment/6E5NU2GE5AUH6"
       },
       {
