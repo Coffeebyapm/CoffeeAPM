@@ -19,14 +19,15 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Double-wall thermos cup", "300 ml"],
         images: ["Piston press SS photo.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_fZu5kwfGeg8g7BTgBz2400v",
+        stripe: "https://buy.stripe.com/prod_UvFk9UbXeOcRBR",
         paypal: "https://www.paypal.com/ncp/payment/5U5ZG8DTW75XA"
       }
     ]
   },
   {
     group: "VacBrew",
-    description: "Portable cold coffee extractors using steam-condensed vacuum. The vacuum pulls icy cold water through coffee grind to make fresh, flavorful, 2–5 times concentrated coffee.",
+    description: "Portable cold coffee extractors using steam-condensed vacuum. The vacuum pulls icy cold water through coffee grind to make fresh, flavorful, 2–5 times concentrated coffee. 
+    No oxidation is made during the extraction because of the vacuum in the bottom jar.",
     shipping: "USA shipping: Standard $19.99, Express $44.99 for one or more VacBrew products.",
     items: [
       {
@@ -35,7 +36,7 @@ window.PRODUCTS = [
         specs: ["Borosilicate glass", "Up to 500 ml", "2–3 times concentrated coffee"],
         images: ["VacBrewGS.PNG"],
         videos: ["VacBrewDemo.mp4"],
-        stripe: "https://buy.stripe.com/test_bJefZabpYcW45tL3ON24002",
+        stripe: "https://buy.stripe.com/prod_UvFoEqCzeB4QaU",
         paypal: "https://www.paypal.com/ncp/payment/7SUWQSVUGSZZJ"
       },
       {
