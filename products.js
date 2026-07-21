@@ -44,7 +44,7 @@ window.PRODUCTS = [
         specs: ["Borosilicate glass", "Up to 2000 ml", "For office or coffee shop display"],
         images: ["Glass Large.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_5kQ28k8dM1dm1dv1GF2400u",
+        stripe: "https://buy.stripe.com/prod_UvHzvYcyV46ch4",
         paypal: "https://www.paypal.com/ncp/payment/S3392W5A8FTGY"
       },
       {
@@ -53,7 +53,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Up to 1500 ml", "2–5 times concentrated coffee"],
         images: ["SSF.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_4gMeV6gKi2hq2hzgBz2400t",
+        stripe: "https://buy.stripe.com/prod_UvI7A30WgOBh4q",
         paypal: "https://www.paypal.com/ncp/payment/AXGSHEF9YHMDE"
       },
       {
@@ -62,7 +62,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Up to 3500 ml", "3–5 times concentrated coffee"],
         images: ["Stainless Large.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_8x2cMYbpY1dm2hzdpn2400s",
+        stripe: "https://buy.stripe.com/prod_UvIfItyNqF3WEc",
         paypal: "https://www.paypal.com/ncp/payment/TFALACEH3FFJE"
       }
     ]
@@ -78,7 +78,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "7-Gal", "28 kg", "Low vacuum, up to 10 times concentration"],
         images: ["VacBrew 7 Gal.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_dRm28k8dMe08g8p5WV24003",
+        stripe: "https://buy.stripe.com/prod_UvJ1mAI7gqQVs7",
         paypal: "https://www.paypal.com/ncp/payment/DCGDQKLZ2HLQ8"
       },
       {
@@ -87,7 +87,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "15-Gal", "33 kg", "Low vacuum, up to 10 times concentration"],
         images: ["VacBrew 15 gals.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_7sY6oA9hQ9JSaO5gBz2400r",
+        stripe: "https://buy.stripe.com/prod_UvJGU0Hs2m7mwG",
         paypal: "https://www.paypal.com/ncp/payment/ZNNW6FR3BUWHS"
       },
       {
@@ -96,7 +96,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "7-Gal", "85 kg", "High vacuum, up to 15 times concentration"],
         images: ["VacBrew 7 Gal Hard Extracter.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_28E28k8dM9JScWdgBz2400o",
+        stripe: "https://buy.stripe.com/prod_UvJPZzSq84j1lO",
         paypal: "https://www.paypal.com/ncp/payment/LSFXHEB2NASSN"
       },
       {
@@ -105,7 +105,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "20-Gal", "115 kg", "High vacuum, up to 15 times concentration"],
         images: ["CCommercial 20Gal.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_00wfZa0LkcW43lDetr2400p",
+        stripe: "https://buy.stripe.com/prod_UvJU9kfTffYJLw",
         paypal: "https://www.paypal.com/ncp/payment/FSX2NQFN4J8VJ"
       },
       {
