@@ -114,7 +114,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "50-Gal", "225 kg", "High vacuum, up to 15 times concentration"],
         images: ["VacBrewCommercial50Gal.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_6oU8wIgKiaNWe0h5WV2400q",
+        stripe: "https://buy.stripe.com/prod_UvPArQJjxw8v2u",
         paypal: "https://www.paypal.com/ncp/payment/WQHWCVA7XDXAE"
       }
     ]
@@ -130,7 +130,7 @@ window.PRODUCTS = [
         specs: ["Amber glass bottle", "5 times concentrated"],
         images: ["CCBottle.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_5kQ7sE2Ts9JS09r3ON2400e",
+        stripe: "https://buy.stripe.com/prod_UvPWlvYxHgOgdM",
         paypal: "https://www.paypal.com/ncp/payment/J3ARNBL4HHJYG"
       },
       {
@@ -139,7 +139,7 @@ window.PRODUCTS = [
         specs: ["Amber glass bottle", "10 times concentrated"],
         images: ["CCBottle.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_cNi7sE79I6xGbS9dpn2400d",
+        stripe: "https://buy.stripe.com/prod_UvPkcFlimQlsFS",
         paypal: "https://www.paypal.com/ncp/payment/M59AD4ATRX6CQ"
       }
     ]
@@ -155,7 +155,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoastedHalf.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_14A3cofGe5tCf4l4SR2400j",
+        stripe: "https://buy.stripe.com/prod_UvQ0CCYNR6Rhq9",
         paypal: "https://www.paypal.com/ncp/payment/KUUPUHDQHZ2L8"
       },
       {
@@ -164,7 +164,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoasted1lb.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_bJefZa65E6xG1dv8532400i",
+        stripe: "https://buy.stripe.com/prod_UvQ6uBfA44caXI",
         paypal: "https://www.paypal.com/ncp/payment/3347LFE9VX5BJ"
       },
       {
@@ -173,7 +173,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoasted3lbs.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_3cI14g51AcW46xPfxv2400h",
+        stripe: "https://buy.stripe.com/prod_UvQCmMlK1VbxrN",
         paypal: "https://www.paypal.com/ncp/payment/SKMTFAGTD53GG"
       },
       {
@@ -182,7 +182,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoasted5lbs.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_fZu8wI1Po09if4ldpn2400g",
+        stripe: "https://buy.stripe.com/prod_UvQG3LiTDPLceD",
         paypal: "https://www.paypal.com/ncp/payment/KGGJU4RDH4VYJ"
       },
       {
@@ -191,7 +191,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoasted10lbs.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_28EeV6gKig8g3lD2KJ2400f",
+        stripe: "https://buy.stripe.com/prod_UvQJSYtMpMNar6",
         paypal: "https://www.paypal.com/ncp/payment/ZRRTD6UHGKEPY"
       }
     ]
@@ -207,7 +207,7 @@ window.PRODUCTS = [
         specs: ["750 RPM", "Braids 3 times faster than a professional hair braider", "For micro to jumbo braid"],
         images: ["ezbasic.PNG", "EZ Braider long hair.PNG", "ezbtreebraid.PNG", "ezfuhair.PNG", "ezbraidercolorext.PNG", "ezjump.PNG"],
         videos: ["eznatural.mp4", "ezextension.mp4", "ezcoloryam.mp4", "ezfuson.mp4"],
-        stripe: "https://buy.stripe.com/test_aFaeV6gKi1dm6xPclj24006",
+        stripe: "https://buy.stripe.com/prod_UvQTYZ0tjF8J2v",
         paypal: "https://www.paypal.com/ncp/payment/AHTVPLJBPTR3J"
       }
     ]
@@ -223,7 +223,7 @@ window.PRODUCTS = [
         specs: ["100% whole grain brown rice", "Plain original", "Small size"],
         images: ["100%BRPlainS.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_bJe00cfGe09i2hz8532400k",
+        stripe: "https://buy.stripe.com/prod_UvQYvxliyXsC87",
         paypal: "https://www.paypal.com/ncp/payment/ABND5CRPG96CE"
       },
       {
@@ -232,7 +232,7 @@ window.PRODUCTS = [
         specs: ["100% whole grain brown rice", "Plain original", "Medium size"],
         images: ["100%BRPlainM.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_fZu8wI0Lk5tC7BTbhf2400l",
+        stripe: "https://buy.stripe.com/prod_UvQcaBdBgsrgCK",
         paypal: "https://www.paypal.com/ncp/payment/EWRCKDNNMDNHN"
       },
       {
@@ -241,7 +241,7 @@ window.PRODUCTS = [
         specs: ["Whole grain brown rice", "Cinnamon with lightly added brown sugar", "Small size"],
         images: ["BRCinnamon.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_bJe00cfGe09i2hz8532400k",
+        stripe: "https://buy.stripe.com/prod_UvQiVTQtBLwy0R",
         paypal: "https://www.paypal.com/ncp/payment/6W48YBYAAD45U"
       },
       {
@@ -250,7 +250,7 @@ window.PRODUCTS = [
         specs: ["Whole grain brown rice", "Coffee flavor with lightly added brown sugar", "Small size"],
         images: ["BRCoffee.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_6oU14gfGecW48FX1GF2400m",
+        stripe: "https://buy.stripe.com/prod_UvQnRAd3eFJIN7",
         paypal: "https://www.paypal.com/ncp/payment/P92GX3EMD4B4U"
       }
     ]
