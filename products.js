@@ -19,7 +19,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Double-wall thermos cup", "300 ml"],
         images: ["Piston press SS photo.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvFk9UbXeOcRBR",
+        stripe: "https://buy.stripe.com/6oUdR37Hv0dmczx4oT6wE05",
         paypal: "https://www.paypal.com/ncp/payment/5U5ZG8DTW75XA"
       }
     ]
