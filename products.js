@@ -26,8 +26,7 @@ window.PRODUCTS = [
   },
   {
     group: "VacBrew",
-    description: "Portable cold coffee extractors using steam-condensed vacuum. The vacuum pulls icy cold water through coffee grind to make fresh, flavorful, 2–5 times concentrated coffee. 
-    No oxidation is made during the extraction because of the vacuum in the bottom jar.",
+    description: "Portable cold coffee extractors using steam-condensed vacuum. The vacuum pulls icy cold water through coffee grind to make fresh, flavorful, 2–5 times concentrated coffee.",
     shipping: "USA shipping: Standard $19.99, Express $44.99 for one or more VacBrew products.",
     items: [
       {
