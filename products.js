@@ -35,7 +35,7 @@ window.PRODUCTS = [
         specs: ["Borosilicate glass", "Up to 500 ml", "2–3 times concentrated coffee"],
         images: ["VacBrewGS.PNG"],
         videos: ["VacBrewDemo.mp4"],
-        stripe: "https://buy.stripe.com/prod_UvFoEqCzeB4QaU",
+        stripe: "https://buy.stripe.com/7sY7sFd1Pe4cgPN4oT6wE06",
         paypal: "https://www.paypal.com/ncp/payment/7SUWQSVUGSZZJ"
       },
       {
