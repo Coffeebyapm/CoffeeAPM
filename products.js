@@ -266,7 +266,7 @@ window.PRODUCTS = [
         specs: ["Reusable cold brew cartridge", "For PET water bottle", "Future product"],
         images: ["IBrewwaterbottle.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_14AfZafGe8FO5tL70Z2400a",
+        stripe: "https://buy.stripe.com/28E00d6Dr4tCfLJcVp6wE00",
         paypal: "https://www.paypal.com/ncp/payment/ZA4WL73RT5SEW"
       },
       {
@@ -275,7 +275,7 @@ window.PRODUCTS = [
         specs: ["Reusable cold brew cartridge", "Reusable 500 ml glass bottle", "Future product"],
         images: ["I Brew Glass.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_00w7sEcu24py8FX99724007",
+        stripe: "https://buy.stripe.com/8x2bIV2nbf8g2YXcVp6wE01",
         paypal: "https://www.paypal.com/ncp/payment/R3PR8DSZYP668"
       },
       {
@@ -284,7 +284,7 @@ window.PRODUCTS = [
         specs: ["Reusable cold brew cartridge", "500 ml double-wall stainless bottle", "Future product"],
         images: ["I Brew SS.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/test_cNieV679I6xG8FXadb2400c",
+        stripe: "https://buy.stripe.com/cNi7sF4vj3py1UT5sX6wE02",
         paypal: "https://www.paypal.com/ncp/payment/36TM72B5WPJQ8"
       }
     ]
@@ -300,7 +300,7 @@ window.PRODUCTS = [
         specs: ["Up to 40% efficiency", "Starts generation at 3 m/second wind speed", "Quiet operation", "Low RPM, high torque", "Future product"],
         images: ["WTBT5KW.PNG"],
         videos: ["WindTerbine1.mp4", "WindTerbine2.mp4"],
-        stripe: "https://buy.stripe.com/test_3cIcMY3Xw3lu9K12KJ24009",
+        stripe: "https://buy.stripe.com/00w6oBaTH5xGeHF8F96wE03",
         paypal: "https://www.paypal.com/ncp/payment/5R6N55ERTC6RQ"
       }
     ]
