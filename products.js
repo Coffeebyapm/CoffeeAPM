@@ -44,7 +44,7 @@ window.PRODUCTS = [
         specs: ["Borosilicate glass", "Up to 2000 ml", "For office or coffee shop display"],
         images: ["Glass Large.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvHzvYcyV46ch4",
+        stripe: "https://buy.stripe.com/cNi28l9PD9NWbvt4oT6wE07",
         paypal: "https://www.paypal.com/ncp/payment/S3392W5A8FTGY"
       },
       {
@@ -53,7 +53,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Up to 1500 ml", "2–5 times concentrated coffee"],
         images: ["SSF.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvI7A30WgOBh4q",
+        stripe: "https://buy.stripe.com/aFa8wJf9X0dm6b94oT6wE08",
         paypal: "https://www.paypal.com/ncp/payment/AXGSHEF9YHMDE"
       },
       {
@@ -62,7 +62,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "Up to 3500 ml", "3–5 times concentrated coffee"],
         images: ["Stainless Large.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvIfItyNqF3WEc",
+        stripe: "https://buy.stripe.com/bJe7sF7Hv9NW2YXaNh6wE09",
         paypal: "https://www.paypal.com/ncp/payment/TFALACEH3FFJE"
       }
     ]
@@ -78,7 +78,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "7-Gal", "28 kg", "Low vacuum, up to 10 times concentration"],
         images: ["VacBrew 7 Gal.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvJ1mAI7gqQVs7",
+        stripe: "https://buy.stripe.com/6oU28l2nb1hqfLJ3kP6wE0a",
         paypal: "https://www.paypal.com/ncp/payment/DCGDQKLZ2HLQ8"
       },
       {
@@ -87,7 +87,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "15-Gal", "33 kg", "Low vacuum, up to 10 times concentration"],
         images: ["VacBrew 15 gals.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvJGU0Hs2m7mwG",
+        stripe: "https://buy.stripe.com/bJe3cp1j7gck9nlbRl6wE0b",
         paypal: "https://www.paypal.com/ncp/payment/ZNNW6FR3BUWHS"
       },
       {
@@ -96,7 +96,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "7-Gal", "85 kg", "High vacuum, up to 15 times concentration"],
         images: ["VacBrew 7 Gal Hard Extracter.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvJPZzSq84j1lO",
+        stripe: "https://buy.stripe.com/dRm6oBd1P4tCgPNbRl6wE0c",
         paypal: "https://www.paypal.com/ncp/payment/LSFXHEB2NASSN"
       },
       {
@@ -105,7 +105,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "20-Gal", "115 kg", "High vacuum, up to 15 times concentration"],
         images: ["CCommercial 20Gal.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvJU9kfTffYJLw",
+        stripe: "https://buy.stripe.com/8x26oB3rf2lu8jhdZt6wE0d",
         paypal: "https://www.paypal.com/ncp/payment/FSX2NQFN4J8VJ"
       },
       {
@@ -114,7 +114,7 @@ window.PRODUCTS = [
         specs: ["304 stainless steel", "50-Gal", "225 kg", "High vacuum, up to 15 times concentration"],
         images: ["VacBrewCommercial50Gal.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvPArQJjxw8v2u",
+        stripe: "https://buy.stripe.com/cNi8wJ8Lz6BK0QPbRl6wE0e",
         paypal: "https://www.paypal.com/ncp/payment/WQHWCVA7XDXAE"
       }
     ]
@@ -130,7 +130,7 @@ window.PRODUCTS = [
         specs: ["Amber glass bottle", "5 times concentrated"],
         images: ["CCBottle.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvPWlvYxHgOgdM",
+        stripe: "https://buy.stripe.com/14A4gt9PDd0843108D6wE0f",
         paypal: "https://www.paypal.com/ncp/payment/J3ARNBL4HHJYG"
       },
       {
@@ -139,7 +139,7 @@ window.PRODUCTS = [
         specs: ["Amber glass bottle", "10 times concentrated"],
         images: ["CCBottle.PNG"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvPkcFlimQlsFS",
+        stripe: "https://buy.stripe.com/cNi7sF8Lz2lu431aNh6wE0g",
         paypal: "https://www.paypal.com/ncp/payment/M59AD4ATRX6CQ"
       }
     ]
