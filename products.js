@@ -221,7 +221,7 @@ window.PRODUCTS = [
         name: "Brown Rice Snack Plain Small",
         price: "$3.00",
         specs: ["100% whole grain brown rice", "Plain original", "Small size"],
-        images: ["100%BRPlainS.jpg"],
+        images: ["BRPlainS.jpg"],
         videos: [],
         stripe: "https://buy.stripe.com/eVqcMZ4vj7FO0QPdZt6wE0n",
         paypal: "https://www.paypal.com/ncp/payment/ABND5CRPG96CE"
@@ -230,7 +230,7 @@ window.PRODUCTS = [
         name: "Brown Rice Snack Plain Medium",
         price: "$5.00",
         specs: ["100% whole grain brown rice", "Plain original", "Medium size"],
-        images: ["100%BRPlainM.PNG"],
+        images: ["BRPlainM.PNG"],
         videos: [],
         stripe: "https://buy.stripe.com/4gMcMZf9XbW4fLJcVp6wE0o",
         paypal: "https://www.paypal.com/ncp/payment/EWRCKDNNMDNHN"
