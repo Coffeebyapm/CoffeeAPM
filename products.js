@@ -155,7 +155,7 @@ window.PRODUCTS = [
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoastedHalf.jpg"],
         videos: [],
-        stripe: "https://buy.stripe.com/prod_UvQ0CCYNR6Rhq9",
+        stripe: "https://buy.stripe.com/9B65kx8Lzd080QP1cH6wE0h",
         paypal: "https://www.paypal.com/ncp/payment/KUUPUHDQHZ2L8"
       },
       {
