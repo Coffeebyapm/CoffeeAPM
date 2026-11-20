@@ -126,7 +126,7 @@ window.PRODUCTS = [
     items: [
       {
         name: "32 oz 5x Concentrated Cold Brew Coffee",
-        price: "$13.00",
+        price: "$13.50",
         specs: ["Amber glass bottle", "5 times concentrated"],
         images: ["CCBottle.PNG"],
         videos: [],
