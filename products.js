@@ -215,7 +215,7 @@ window.PRODUCTS = [
   {
     group: "100% Whole Grain Brown Rice Snack",
     description: "Whole grain brown rice snacks. Not fried in oil. Plain has no added sugar. Brown rice has low GI and contains antioxidants, vitamins, and minerals.",
-    shipping: "Standard shipping: $15 up to 5 bags, $25 up to 10 bags, $35 up to 20 bags, $50 one case. Express and 7–10 day delivery options available.",
+    shipping: "U.S. Standard shipping per order: $15 for 1–5 bags, $20 for 6–9 bags, and $25 for 10–50 bags (up to one full box). The same shipping fee applies throughout each quantity range. Ordering more bags together saves on shipping per bag. Express shipping is available upon request; please contact Coffee APM for a quotation.",
     items: [
       {
         name: "Brown Rice Snack Plain Small",
