@@ -195,6 +195,12 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .join("") +
       "</ul>" +
+      (shipping
+        ? '<div class="product-shipping-info">' +
+          '<strong>Shipping & Additional Services</strong>' +
+          '<p>' + safeText(shipping) + '</p>' +
+          '</div>'
+        : '') +
       '<div class="payment-section">' +
       '<p class="payment-title">Purchase Options</p>' +
       '<div class="payment-buttons">' +
