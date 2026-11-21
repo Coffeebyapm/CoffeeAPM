@@ -1,18 +1,145 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Feedback - Coffee by APM</title><link rel="stylesheet" href="styles.css"/>
-</head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Customer Feedback | Coffee APM</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .feedback-card {
+      max-width: 680px;
+      margin: 30px auto;
+      padding: 25px;
+      background: #fff;
+      border: 1px solid #dce6dc;
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+    .feedback-card h2 { color: #234c38; }
+    .feedback-card label {
+      display: block;
+      margin: 16px 0 6px;
+      font-weight: bold;
+    }
+    .feedback-card input,
+    .feedback-card select,
+    .feedback-card textarea {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #aaa;
+      border-radius: 7px;
+      box-sizing: border-box;
+      font: inherit;
+    }
+    .feedback-card button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 7px;
+      background: #087d55;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .feedback-card button:hover {
+      background: #065e40;
+    }
+    .feedback-note {
+      margin-top: 18px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
 <header class="site-header">
   <div class="brand">
-    <img class="logo" src="CLOGO.PNG" alt="Company Logo"/>
-    <div class="brand-text"><h1>Feedback</h1><p>Leave a comment (demo).</p></div>
-    <img class="logo" src="Loveyoume.PNG" alt="Brand Logo"/>
+    <img class="logo" src="CLOGO.PNG"
+         alt="Coffee APM Company Logo">
+    <div class="brand-text">
+      <h1>Customer Feedback</h1>
+      <p>We value your comments and suggestions.</p>
+    </div>
+    <img class="logo" src="Loveyoume.PNG"
+         alt="Love You Me Brand Logo">
   </div>
+
   <nav class="nav">
-    <a class="btn" href="index.html">Home</a><a class="btn" href="question.html">Question / A/S</a>
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="contact.html">Contact</a>
+    <a class="btn" href="question.html">Question / A/S</a>
   </nav>
 </header>
+
 <main class="container">
-  <div class="notice">We can upgrade this to store feedback online later.</div>
+  <section class="feedback-card">
+    <h2>Send Us Your Feedback</h2>
+    <p>
+      Thank you for visiting Coffee APM!
+      We welcome your opinions about our products,
+      website, and customer service.
+    </p>
+
+    <form action="https://formspree.io/f/mljbwbno"
+          method="POST">
+
+      <input type="hidden" name="_subject"
+             value="New Coffee APM Customer Feedback">
+
+      <label for="name">Your Name *</label>
+      <input type="text" id="name"
+             name="name" required>
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email"
+             name="email" required>
+
+      <label for="product">Product (Optional)</label>
+      <input type="text" id="product"
+             name="product"
+             placeholder="Product name">
+
+      <label for="category">Feedback Category *</label>
+      <select id="category" name="category" required>
+        <option value="">Select a category</option>
+        <option value="Product Feedback">
+          Product Feedback
+        </option>
+        <option value="Website Feedback">
+          Website Feedback
+        </option>
+        <option value="Customer Service">
+          Customer Service
+        </option>
+        <option value="Suggestion">
+          Suggestion
+        </option>
+        <option value="Other">
+          Other
+        </option>
+      </select>
+
+      <label for="message">Your Feedback *</label>
+      <textarea id="message" name="message"
+                rows="6" required
+                placeholder="Please share your comments">
+      </textarea>
+
+      <button type="submit">
+        Submit Feedback
+      </button>
+    </form>
+
+    <p class="feedback-note">
+      Your feedback will be sent privately to
+      Coffee APM. It will not automatically
+      appear publicly on our website.
+    </p>
+  </section>
 </main>
-</body></html>
+
+</body>
+</html>
