@@ -151,7 +151,7 @@ window.PRODUCTS = [
     items: [
       {
         name: "SafelyRoasted Coffee Bean 1/2 lb",
-        price: "$12.50",
+        price: "$13.50",
         specs: ["Organically grown Ethiopia origin coffee bean"],
         images: ["Logo coffee.jpg", "SafelyRoastedHalf.jpg"],
         videos: [],
