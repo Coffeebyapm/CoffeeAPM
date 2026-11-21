@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 
-  function productCard(item, groupName) {
+  function productCard(item, groupName, shipping) {
     const specs = Array.isArray(item.specs) ? item.specs : [];
 
     const testNotice =
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
           '<div class="product-items-grid">' +
           group.items
             .map(function (item) {
-              return productCard(item, group.group);
+             return productCard(item, group.group, group.shipping);
             })
             .join("") +
           "</div>" +
