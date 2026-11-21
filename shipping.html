@@ -2,28 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
   <title>Shipping Information | Coffee APM</title>
   <link rel="stylesheet" href="styles.css">
+
   <style>
     .shipping-header {
       text-align: center;
       padding: 22px 15px;
     }
+
     .shipping-header img {
       max-width: 150px;
       max-height: 100px;
       object-fit: contain;
       margin: 8px;
     }
+
     .shipping-nav {
       text-align: center;
       padding: 15px;
     }
+
     .shipping-nav a {
       display: inline-block;
       margin: 6px 12px;
     }
+
     .shipping-page {
       max-width: 1050px;
       margin: 35px auto;
@@ -31,10 +37,12 @@
       font-family: Arial, sans-serif;
       line-height: 1.7;
     }
+
     .shipping-page h1,
     .shipping-page h2 {
       color: #234c38;
     }
+
     .shipping-card {
       background: #f7f9f6;
       border: 1px solid #dce6dc;
@@ -42,6 +50,24 @@
       padding: 24px;
       margin: 20px 0;
     }
+
+    .shipping-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+
+    .shipping-table th,
+    .shipping-table td {
+      border: 1px solid #dce6dc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .shipping-table th {
+      background: #e7efe8;
+    }
+
     .shipping-action {
       display: inline-block;
       background: #246b45;
@@ -52,18 +78,46 @@
       font-weight: bold;
       margin: 8px 8px 8px 0;
     }
+
     .shipping-action:hover {
       background: #174a30;
     }
+
+    .shipping-note {
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .shipping-page {
+        margin: 15px auto;
+        padding: 12px;
+      }
+
+      .shipping-card {
+        padding: 16px;
+      }
+
+      .shipping-table th,
+      .shipping-table td {
+        padding: 8px;
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
+
 <body>
 
 <header class="shipping-header">
   <a href="index.html">
-    <img src="CLOGO.PNG" alt="Coffee APM Logo">
+    <img src="CLOGO.PNG"
+         alt="Coffee APM Company Logo">
   </a>
-  <img src="Loveyoume.PNG" alt="Love You Me Logo">
+
+  <img src="Loveyoume.PNG"
+       alt="Love You Me Brand Logo">
+
   <h1>Coffee APM</h1>
   <p>Shipping Information</p>
 </header>
@@ -81,18 +135,20 @@
 
   <p>
     Thank you for shopping with Coffee APM.
-    We currently plan to serve customers within
-    the United States.
+    We currently plan to serve customers
+    within the United States.
   </p>
 
   <section class="shipping-card">
     <h2>1. Shipping Charges</h2>
+
     <p>
       Product prices do not include shipping fees.
       Shipping is charged separately based on
       package weight, dimensions, delivery
       destination, and available shipping services.
     </p>
+
     <p>
       Customers must receive the complete product
       and shipping total before making payment.
@@ -104,10 +160,12 @@
 
   <section class="shipping-card">
     <h2>2. Shipping Within the United States</h2>
+
     <p>
       Coffee APM plans to use USPS initially
       for eligible smaller products.
     </p>
+
     <p>
       Shipping charges depend on the package
       and delivery address. Available services
@@ -116,44 +174,141 @@
   </section>
 
   <section class="shipping-card">
-    <h2>3. Alaska and Hawaii Shipping</h2>
+    <h2>3. Brown Rice Snack Shipping</h2>
+
+    <p>
+      To help customers save on shipping,
+      Coffee APM offers flat Standard shipping
+      fees based on the number of Brown Rice
+      Snack bags ordered.
+    </p>
+
+    <table class="shipping-table">
+      <thead>
+        <tr>
+          <th>Order Quantity</th>
+          <th>Standard Shipping Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1–5 bags</td>
+          <td>$15.00 per order</td>
+        </tr>
+        <tr>
+          <td>6–9 bags</td>
+          <td>$20.00 per order</td>
+        </tr>
+        <tr>
+          <td>10–50 bags (up to one full box)</td>
+          <td>$25.00 per order</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      <strong>Save on Shipping!</strong>
+      The same Standard shipping fee applies
+      throughout each quantity range.
+      Ordering more bags together can reduce
+      the shipping cost per bag.
+    </p>
+
+    <h3>Express Shipping</h3>
+
+    <p>
+      Express shipping is available upon request.
+      The estimated minimum Express shipping
+      charge is $37.05 for eligible packages
+      weighing up to 5 lbs.
+    </p>
+
+    <p>
+      Actual Express shipping costs depend on
+      package weight, dimensions, and destination.
+      Please contact Coffee APM for a quotation
+      before ordering Express delivery.
+    </p>
+
+    <p class="shipping-note">
+      Published flat rates are intended for
+      eligible U.S. destinations. Shipping to
+      Alaska, Hawaii, and U.S. territories
+      requires confirmation before payment.
+      Orders exceeding 50 bags require
+      a separate shipping quotation.
+    </p>
+  </section>
+
+  <section class="shipping-card">
+    <h2>4. Alaska and Hawaii Shipping</h2>
+
     <p>
       We welcome inquiries from customers
       in Alaska and Hawaii.
     </p>
+
     <p>
       Shipping costs may differ from those
-      in the 48 contiguous states. The
-      applicable shipping amount will be
+      in the 48 contiguous states.
+      The applicable shipping amount will be
       confirmed before payment.
     </p>
   </section>
 
   <section class="shipping-card">
-    <h2>4. Commercial Equipment Shipping</h2>
+    <h2>5. VacBrew Commercial Equipment</h2>
+
     <p>
-      VacBrew Commercial equipment requires
-      an individual shipping quotation.
+      VacBrew Commercial Cold Brew Extractors
+      require an individual shipping quotation.
     </p>
+
     <p>
       Please contact Coffee APM with your
       delivery destination and the equipment
-      you wish to purchase. We will discuss
-      shipping arrangements and total costs
-      before payment.
+      you wish to purchase.
+      We will discuss shipping arrangements
+      and total costs before payment.
     </p>
+
+    <h3>Optional Setup and Training Service</h3>
+
+    <p>
+      <strong>
+        Setup and training services are available
+        upon customer request for an additional fee.
+      </strong>
+    </p>
+
+    <p>
+      These services are optional and are not
+      included in the standard product price.
+      Please contact Coffee APM for service
+      availability, details, and a quotation.
+    </p>
+
+    <p>
+      This option applies to all VacBrew
+      Commercial Cold Brew Extractor models,
+      including the 7-Gallon, 15-Gallon,
+      20-Gallon, and 50-Gallon models.
+    </p>
+
     <a class="shipping-action"
-       href="mailto:coffeebyapm@gmail.com?subject=VacBrew%20Commercial%20Shipping%20Quotation">
-      Request Commercial Shipping Quote
+       href="mailto:coffeebyapm@gmail.com?subject=VacBrew%20Commercial%20Shipping%20and%20Setup%20Quotation">
+      Request Commercial Shipping / Setup Quote
     </a>
   </section>
 
   <section class="shipping-card">
-    <h2>5. International Shipping</h2>
+    <h2>6. International Shipping</h2>
+
     <p>
       International shipping is not available
       at this time.
     </p>
+
     <p>
       Orders to U.S. territories require
       shipping confirmation before payment.
@@ -161,17 +316,21 @@
   </section>
 
   <section class="shipping-card">
-    <h2>6. Shipping Questions</h2>
+    <h2>7. Shipping Questions</h2>
+
     <p>
       For shipping quotations or assistance,
       please contact:
     </p>
+
     <p>
       <a href="mailto:coffeebyapm@gmail.com">
         coffeebyapm@gmail.com
       </a>
     </p>
-    <a class="shipping-action" href="purchase.html">
+
+    <a class="shipping-action"
+       href="purchase.html">
       Return to Purchase Information
     </a>
   </section>
