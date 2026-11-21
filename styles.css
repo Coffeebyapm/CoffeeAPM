@@ -1657,4 +1657,26 @@ a {
     flex: none;
     width: 100%;
   }
+  /* Shipping information inside product cards */
+
+.product-shipping-info {
+  background: #f0f7f1;
+  border: 1px solid #d5e7d9;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 14px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.product-shipping-info strong {
+  display: block;
+  color: #17633e;
+  margin-bottom: 6px;
+}
+
+.product-shipping-info p {
+  margin: 0;
+  color: #333;
+}
 }
