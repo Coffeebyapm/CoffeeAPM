@@ -1,27 +1,124 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Login - Coffee by APM</title><link rel="stylesheet" href="styles.css"/>
-</head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Join Free Membership - Coffee APM</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .join-card {
+      max-width: 650px;
+      margin: 35px auto;
+      padding: 30px 25px;
+      background: white;
+      border: 1px solid #dce6dc;
+      border-radius: 12px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .join-card h2 {
+      color: #234c38;
+    }
+
+    .join-card p {
+      line-height: 1.7;
+    }
+
+    .join-button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 14px 26px;
+      border-radius: 8px;
+      background: #087d55;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .join-button:hover {
+      background: #065e40;
+    }
+  </style>
+</head>
+
+<body>
+
 <header class="site-header">
   <div class="brand">
-    <img class="logo" src="CLOGO.PNG" alt="Company Logo"/>
-    <div class="brand-text"><h1>Login</h1><p>(Demo placeholder)</p></div>
-    <img class="logo" src="Loveyoume.PNG" alt="Brand Logo"/>
-  </div>
-  <nav class="nav"><a class="btn" href="index.html">Home</a></nav>
-</header>
-<main class="container">
-  <div class="notice"><b>Login needs a backend.</b> For now this is a placeholder page.</div>
-</main>
-</body></html>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Coffee APM. All rights reserved.</p>
+    <img class="logo"
+         src="CLOGO.PNG"
+         alt="Coffee APM Company Logo">
+
+    <div class="brand-text">
+      <h1>Join Free Membership</h1>
+      <p>Welcome to Coffee APM</p>
     </div>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </footer>
+
+    <img class="logo"
+         src="Loveyoume.PNG"
+         alt="Love You Me Brand Logo">
+
+  </div>
+
+  <nav class="nav">
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="purchase.html">Purchase</a>
+    <a class="btn" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="join-card">
+
+    <h2>Welcome to Coffee APM!</h2>
+
+    <p>
+      Join our Coffee APM community for free.
+      Stay connected with our innovative products
+      and customer services.
+    </p>
+
+    <h3>Membership Fee: $0.00</h3>
+
+    <p>
+      No password or login account is required.
+      Simply complete our membership registration
+      form to join.
+    </p>
+
+    <a class="join-button"
+       href="membership.html">
+      Join Free Membership
+    </a>
+
+    <p style="margin-top:25px;color:#666">
+      Thank you for your interest in Coffee APM!
+    </p>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>
+      &copy; <span id="year"></span>
+      Coffee APM. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
 </body>
 </html>
