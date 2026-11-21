@@ -1,19 +1,93 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Contact - Coffee by APM</title><link rel="stylesheet" href="styles.css"/>
-</head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Coffee APM</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .contact-card {
+      max-width: 650px;
+      margin: 30px auto;
+      padding: 25px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      background: #fff;
+    }
+    .contact-card label {
+      display: block;
+      margin: 16px 0 6px;
+      font-weight: bold;
+    }
+    .contact-card input,
+    .contact-card textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      border: 1px solid #aaa;
+      border-radius: 6px;
+      font: inherit;
+    }
+    .contact-card button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 6px;
+      background: #087d55;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
 <header class="site-header">
   <div class="brand">
     <img class="logo" src="CLOGO.PNG" alt="Company Logo"/>
-    <div class="brand-text"><h1>Contact</h1><p>Send a message (demo).</p></div>
+    <div class="brand-text">
+      <h1>Contact Coffee APM</h1>
+      <p>We are happy to hear from you!</p>
+    </div>
     <img class="logo" src="Loveyoume.PNG" alt="Brand Logo"/>
   </div>
   <nav class="nav">
-    <a class="btn" href="index.html">Home</a><a class="btn" href="question.html">Question / A/S</a>
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="question.html">Question / A/S</a>
     <a class="btn" href="feedback.html">Feedback</a>
   </nav>
 </header>
+
 <main class="container">
-  <div class="notice"><b>Tip:</b> If you want real email delivery, we can connect this to a form service.</div>
+  <section class="contact-card">
+    <h2>Send Us a Message</h2>
+    <p>
+      Please complete the form below.
+      We will respond as soon as possible.
+    </p>
+
+    <form action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+      <label for="name">Your Name *</label>
+      <input id="name" type="text" name="name" required/>
+
+      <label for="email">Email Address *</label>
+      <input id="email" type="email" name="email" required/>
+
+      <label for="phone">Phone Number</label>
+      <input id="phone" type="tel" name="phone"/>
+
+      <label for="subject">Subject *</label>
+      <input id="subject" type="text" name="subject" required/>
+
+      <label for="message">Your Message *</label>
+      <textarea id="message" name="message"
+                rows="6" required></textarea>
+
+      <input type="hidden" name="_subject"
+             value="New Coffee APM Contact Message"/>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 </main>
-</body></html>
+</body>
+</html>
