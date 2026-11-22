@@ -202,14 +202,12 @@ document.addEventListener("DOMContentLoaded", function () {
           '</div>'
         : '') +
       '<div class="payment-buttons">' +
-(groupName === "100% Whole Grain Brown Rice Snack"
-  ? paymentButton(item.stripe, "Pay by Card — 10 Bags", "stripe-button") +
-    '<a class="payment-button paypal-button" href="contact.html">' +
-    'Contact Us for Mixed or Larger Orders' +
-    '</a>'
-  : paymentButton(item.stripe, "Pay by Card", "stripe-button") +
-    paymentButton(item.paypal, "Pay with PayPal", "paypal-button")) +
-"</div>" +
+      (groupName === "100% Whole Grain Brown Rice Snack"
+        ? paymentButton(item.stripe, "Pay by Card — 10 Bags", "stripe-button") +
+          paymentButton(item.paypal, "Pay with PayPal — 10 Bags", "paypal-button")
+        : paymentButton(item.stripe, "Pay by Card", "stripe-button") +
+          paymentButton(item.paypal, "Pay with PayPal", "paypal-button")) +
+      "</div>" +
       testNotice +
       "</div>" +
       '<a class="product-question-link" href="question.html?product=' +
