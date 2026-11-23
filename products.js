@@ -2,7 +2,7 @@ window.PRODUCTS = [
   {
     group: "VacPress",
     description: "Cup-type piston cold brew coffee makers. The piston creates positive and negative pressure to enhance extraction in cold water and makes cold brew coffee in 3–5 minutes.",
-    shipping: "USA shipping: Standard $8, Express $25 for one or more VacPress products.",
+    shipping: "USA shipping: Standard $8, Express $38 for one or more VacPress products.",
     items: [
       {
         name: "VacPress Glass Cup, 200 ml",
@@ -27,7 +27,7 @@ window.PRODUCTS = [
   {
     group: "VacBrew",
     description: "Portable cold coffee extractors using steam-condensed vacuum. The vacuum pulls icy cold water through coffee grind to make fresh, flavorful, 2–5 times concentrated coffee.",
-    shipping: "USA shipping: Standard $19.99, Express $44.99 for one or more VacBrew products.",
+    shipping: "USA shipping: Standard $15 for glass small, $25 for glass large, $17 for both stainless small and large cartridge, Express $38 for small glass, $40 for large glass and both small and large cartridge stainless for one or more VacBrew products.",
     items: [
       {
         name: "VacBrew Personal Glass, 500 ml",
@@ -122,7 +122,7 @@ window.PRODUCTS = [
   {
     group: "Concentrated Cold Brew Coffee",
     description: "5 times and 10 times concentrated cold brew coffee extracted with icy cold water by VacBrew Commercial Extractor.",
-    shipping: "USA shipping: Standard $12.99, Express $35 for one or more 32 oz glass bottle products.",
+    shipping: "USA shipping: Standard $13, Express $38 for one or more 32 oz glass bottle products.",
     items: [
       {
         name: "32 oz 5x Concentrated Cold Brew Coffee",
@@ -147,7 +147,7 @@ window.PRODUCTS = [
   {
     group: "SafelyRoasted",
     description: "Organically grown Ethiopia origin coffee beans roasted with more time and effort, in a lower oxygen environment, to preserve flavor and aroma.",
-    shipping: "Standard shipping: $7.99 half lb, $9.99 1 lb, $17.99 3 lbs, $23 5 lbs, $38 10 lbs. Express shipping available.",
+    shipping: "Standard shipping: $6 half lb, $8 1 lb, $15 3 lbs, $20 5 lbs, $25 10 lbs for one or more SafelyRoasted coffee. Express shipping:$38 half, $38 1 lb, $40 3 lbs, $45 5 lbs, $50 10 lbs for one or more SafelyRoasted coffee.",
     items: [
       {
         name: "SafelyRoasted Coffee Bean 1/2 lb",
@@ -199,7 +199,7 @@ window.PRODUCTS = [
   {
     group: "E-Z Braider",
     description: "A professional hair braiding machine that braids hair at 750 RPM and can braid many sizes from micro to jumbo braid.",
-    shipping: "USA shipping: Standard $15, Express $35 for one or more E-Z Braider products.",
+    shipping: "USA shipping: Standard $20, Express $38 for one or more E-Z Braider products.",
     items: [
       {
         name: "E-Z Braider Basic Set",
