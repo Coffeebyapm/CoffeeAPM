@@ -9,7 +9,7 @@ window.PRODUCTS = [
         price: "$30.00",
         specs: ["Borosilicate glass", "Single-wall clear glass cup", "200 ml"],
         images: ["Piston press glass.jpg"],
-        videos: ["VacPress_Advertising.mp44",
+        videos: ["VacPress_Advertising.mp4",
                 "VacPress_Instructional.mp4"],
         stripe: "https://buy.stripe.com/dRm7sF4vj0dmczxbRl6wE04",
         paypal: "https://www.paypal.com/ncp/payment/6E5NU2GE5AUH6"
@@ -37,7 +37,7 @@ window.PRODUCTS = [
         images: ["VacBrewGS.PNG"],
         videos: ["VacBrew_Steam_Advertising.mp4",
   "VacBrew_Steam_Instructional.mp4",
-"'VacBrew_HandPump_Advertising.mp4",
+"VacBrew_HandPump_Advertising.mp4",
   "VacBrew_HandPump_Instructional.mp4"],
         stripe: "https://buy.stripe.com/7sY7sFd1Pe4cgPN4oT6wE06",
         paypal: "https://www.paypal.com/ncp/payment/7SUWQSVUGSZZJ"
